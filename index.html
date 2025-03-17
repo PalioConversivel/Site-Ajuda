@@ -5,51 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como Superar o Término</title>
+    <style>
+        /* Reset básico e configurações de fonte */
+        body {
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #117a65;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #117a65;
+            font-size: 1.4em;
+        }
+
+        ul {
+            padding-left: 20px;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        /* Imagens */
+        img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 10px;
+        }
+
+        /* Estilos de links */
+        a {
+            text-decoration: none;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            main {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.6em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            ul {
+                font-size: 0.9em;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+
+            /* Ajuste das imagens */
+            .image-container {
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+                flex-wrap: wrap;
+                margin: 20px 0;
+            }
+
+            .image-container img {
+                width: 48%;
+            }
+
+            .video-container img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
-<style>
-    body {
-    font-family: sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    background-color: #117a65;
-    color: white;
-    padding: 20px;
-}
-
-main {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #117a65;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    color: #999;
-    font-size: 14px;
-}
-</style>
 
 <body>
     <header>
-        <h1 style="text-align: center;">Como Superar o Término 🤔</h1>
+        <h1>Como Superar o Término 🤔</h1>
     </header>
+
     <main>
         <h2>Está passando por um término? Respira fundo, vai passar!</h2>
         <p>Sabemos que o fim de um relacionamento pode ser doloroso, mas é também uma oportunidade para se redescobrir e crescer. Aqui vai uma lista de coisas para fazer para se distrair:</p>
@@ -57,7 +116,7 @@ footer {
         <h2>Dicas importantes</h2>
         <ul>
             <li><strong>Cozinhe:</strong> Faça aquele parmegiana de frango, ou até mesmo aquela pipoca simples.</li>
-            <li><strong>Converse com pessoas de confiança:</strong> Desabafe com Mabel, ela é uma otima pessoa e sempre esta disposta a ajudar os outros.</li>
+            <li><strong>Converse com pessoas de confiança:</strong> Desabafe com Mabel, ela é uma otima pessoa e sempre está disposta a ajudar os outros.</li>
             <li><strong>Cuide da sua saúde mental:</strong> Se sentir necessidade, procure ajuda profissional, como um terapeuta.</li>
             <li><strong>Redescubra hobbies:</strong> Volte a fazer coisas que você gosta e que te fazem bem.</li>
             <li><strong>Evite contato imediato:</strong> Dar um tempo de redes sociais ou do ex-parceiro pode ser essencial para cicatrizar as feridas.</li>
@@ -66,18 +125,26 @@ footer {
 
         <h2>Vai ficar tudo bem!</h2>
         <p>Com o tempo, as coisas vão se encaixando e você vai se sentir mais forte e preparada para novas etapas da sua vida!</p>
-        
-        <div style="display: flex; justify-content: center; gap: 120px;">
-            <img src="https://pbs.twimg.com/media/Gls7JSgWAAATDj6.jpg" style="width: 200px; border-radius: 10px;">
-            <img src="https://i.pinimg.com/originals/f4/23/ca/f423cad8415e2bdfd6de21fce07fd342.png" style="width: 200px; border-radius: 10px;">
+
+        <!-- Container de imagens responsivo -->
+        <div class="image-container">
+            <img src="https://pbs.twimg.com/media/Gls7JSgWAAATDj6.jpg" alt="Imagem 1">
+            <img src="https://i.pinimg.com/originals/f4/23/ca/f423cad8415e2bdfd6de21fce07fd342.png" alt="Imagem 2">
         </div>
-    
+
         <h2>Você pode ver essa gameplay de Bloons para se animar:</h2>
-        <div style="text-align: center; margin: 20px 0;">
+        
+        <!-- Container do vídeo -->
+        <div class="video-container" style="text-align: center; margin: 20px 0;">
             <a href="https://youtu.be/4-cT9n8QNAk?si=BvDcSmaRPMFL0OgG" target="_blank">
-                <img src="https://i.ytimg.com/vi/4-cT9n8QNAk/sddefault.jpg" alt="Jogo Bloons" style="width: 600px; border-radius: 10px;">
+                <img src="https://i.ytimg.com/vi/4-cT9n8QNAk/sddefault.jpg" alt="Jogo Bloons">
             </a>
         </div>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Como Superar o Término. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
